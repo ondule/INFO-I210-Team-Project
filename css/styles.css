@@ -23,55 +23,151 @@ img {
     font-style: italic;
   }
 
-.siteLogo {
-    font-family: "Bungee";
-    font-size: 36px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.hero {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-image: url("../images/file-20191023-119405-1i8siwd\ conv.jpeg");
-    background-position: center;
-    background-size: 80%;
-    background-repeat:no-repeat;
-    
-}
-
-
-
-
-
 .header {
-    margin: 0 20px 0 20px;
-}
-
-.header p {
-    margin-top: -26px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-nav {
+    height: auto;
     width: 100%;
-    height: 30px;
-    background-color: #5e5e5e;
+    padding: 0 100px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav {
+
+    width: 24%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.logoContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: purple; */
+    
+}
+
+.logoContainer a {
+    font-size: 67px;
+    font-family: "Bungee";
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.logoContainer h1 {
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: -40px;
+    
+}
+
+.accntIcon {
+    width: 24%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     
+}
+
+.accntLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.accntLink a {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.accntLink img {
+    max-width: 30px;
+    margin-left: 12px;
+}
+
+
+/* HERO IMG */
+
+.heroCont {
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    
+} 
+.hero {
+    width: 1396px;
+    height: auto;
+    /* background-color: chartreuse; */
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
-nav a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+
+.hero h2 {
+    color: white;
+    font-family: "High Tower";
+    font-size: 48px;
+    font-style: italic;
 }
+
+/* New Releases Albums */
+.newReleases {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 24px;
+    
+}
+
+.newRelRow {
+    height: 364px;
+    min-width: 1680px;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.relCont {
+    height: 364px;
+    width: 402px;
+    padding: 24px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.relCont img {
+    height: 317px;
+    width: 317px;
+}
+.relCont p {
+    margin-top: 8px;
+}
+
