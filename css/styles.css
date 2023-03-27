@@ -16,32 +16,54 @@ img {
 	max-width: 100%;
 }
 
+/* FONTS */
 @font-face {
     font-family: "Bungee";
     src: url(../fonts/BungeeShade-Regular.ttf);
     font-weight: normal;
     font-style: italic;
   }
+  @font-face {
+    font-family: "Helvetica-Ext-Light";
+    src: url(../fonts/HelveticaNeueLTStd-Ex.otf);
+    font-weight: normal;
+    font-style: italic;
+  }  
+   @font-face {
+    font-family: "Helvetica-Ext-Med";
+    src: url(../fonts/HelveticaNeueLTStd-MdEx.otf);
+    font-weight: normal;
+    font-style: italic;
+  } 
 
-.header {
+/* NAV */
+nav {
     height: auto;
     width: 100%;
-    padding: 0 100px 0 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: center;
+    /* background-color: pink; */
     
 }
-nav {
-
-    width: 24%;
-    /* background-color: chartreuse; */
+/* Left Navigation */
+.navLinks {
+    margin-right: 100px;
+    margin-bottom: 60px;
+    width: 286px;
+    /* background-color: chartreuse;  */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
 }
 
-nav a {
+.navLinks img {
+    width: 10px;
+    margin-left: 3px;
+}
+
+.navLinks a {
     font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -49,8 +71,9 @@ nav a {
     color: black;
 }
 
+/* Logo/search box */
 .logoContainer {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,25 +82,41 @@ nav a {
     
 }
 
-.logoContainer a {
-    font-size: 67px;
-    font-family: "Bungee";
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-}
 
-.logoContainer h1 {
-    font-size: 22px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    color: black;
-    margin-top: -40px;
+.logoContainer p {
+    font-size: 14px;
+    font-family: "Helvetica-Ext-Light";
+    color: #000000;
+    margin-right: 44px;
+    margin-top: 16px;
     
 }
 
-.accntIcon {
-    width: 24%;
+.search {
+    width: 332px;
+    height: 46px;
+    margin-top: 24px;
+    background-color: #efefef;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-items: center;  */
+    justify-content: space-between;
+    
+}
+
+.search img {
+    width: 19.5px;
+    height: 19.5px;
+    margin-left: 25px;
+}
+
+/* right side links */
+.rightLinks {
+    margin-bottom: 54px;
+    /* background-color: brown; */
+    /* min-width: 286px; */
+    margin-left: 91px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -88,10 +127,18 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 36px;
 
 }
 
-.accntLink a {
+.bagLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.rightLinks a {
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
     color: black;
@@ -99,15 +146,46 @@ nav a {
 }
 
 .accntLink img {
-    max-width: 30px;
-    margin-left: 12px;
+    max-width: 27px;
+    margin-right: 12px; 
+}
+
+.bagLink img {
+    max-width: 21px;
+    margin-right: 12px;
 }
 
 
 /* HERO IMG */
 
-.heroCont {
+#shopping {
+    /* background-color: yellow; */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.sectHeading {
     margin-top: 50px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: tomato; */
+    margin-left: 292px;
+    margin-bottom: 34px;
+}
+.sectHeading h2 {
+    font-family: "Helvetica-Ext-Med";
+    font-size: 26px;
+}
+.sectHeading p {
+    font-family: "Helvetica-Ext-Med";
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.heroCont {
+    
     width: 100%;
     height: 350px;
     /* background-color: chocolate; */
@@ -116,8 +194,8 @@ nav a {
     
 } 
 .hero {
-    width: 1396px;
-    height: auto;
+    width: 1300px;
+    height: 340px;
     /* background-color: chartreuse; */
     background-image: url(../images/banner.jpg);
     background-position: center;
@@ -131,7 +209,7 @@ nav a {
 .hero h2 {
     color: white;
     font-family: "High Tower";
-    font-size: 48px;
+    font-size: 54px;
     font-style: italic;
 }
 
@@ -141,13 +219,13 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 24px;
+    margin-top: 44px;
     
 }
 
 .newRelRow {
     height: 364px;
-    min-width: 1680px;
+    min-width: 1300px;
     /* background-color: chartreuse; */
     display: flex;
     align-items: center;
@@ -156,19 +234,26 @@ nav a {
 }
 
 .relCont {
-    height: 364px;
-    width: 402px;
-    padding: 24px;
+    max-width: 295px;
     text-align: center;
-    /* background-color: aqua; */
+    /* background-color: aqua;  */
+    
+     
 }
 
 .relCont img {
-    height: 317px;
-    width: 317px;
+    height: 295px;
+    width: 295px;
 }
 .relCont p {
     margin-top: 8px;
+    font-size: 16px;
+    font-family: "Helvetica-Ext-Med";
+}
+.relCont span {
+    font-style: italic;
+    display: block;
+    /* text-transform: uppercase; */
 }
 
 /*footer styles*/
