@@ -256,6 +256,116 @@ nav {
     /* text-transform: uppercase; */
 }
 
+
+.ourTeam img{
+    padding-top: 50px;
+    margin-left: 290px;
+}
+
+.ourTeam h1{
+    margin-left: 390px;
+    margin-top: -100px;
+    font-size: 55px;
+    color: red;
+    font-family: "teamFont";
+
+}
+
+.teamBody {
+    margin-left: 310px;
+    margin-top: 150px;
+}
+
+.teamBody img{
+    margin-right: 100px;
+}
+
+.teamBodyText {
+    display: flex;
+    flex-direction: row;
+}
+
+.text1 {
+    align-items: right;
+    font-size: 12px;
+    font-family: "teamFont";
+    max-width: 400px;
+    margin-left: 260px;
+    margin-top: 20px;
+    justify-content: right;
+    text-align: right;
+}
+
+.text1 h2{
+    font-size: 40px;
+}
+
+.text1 h3{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.text1 span{
+    font-weight: bold;
+}
+
+.text2 {
+    align-items: right;
+    font-size: 12px;
+    font-family: "teamFont";
+    max-width: 400px;
+    margin-left: 60px;
+    margin-top: 20px;
+    justify-content: right;
+    text-align: right;
+}
+
+.text2 h2{
+    font-size: 40px;
+}
+
+.text2 h3{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.text2 span{
+    font-weight: bold;
+}
+
+.text3 {
+    align-items: right;
+    font-size: 12px;
+    font-family: "teamFont";
+    max-width: 400px;
+    margin-left: 60px;
+    margin-top: 20px;
+    justify-content: right;
+    text-align: right;
+}
+
+.text3 h2{
+    font-size: 40px;
+}
+
+.text3 h3{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.text3 span{
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "teamFont";
+    src: url(../fonts/HelveticaNeueLTStd-BdEx.otf);
+  }
+
+
 /*footer styles*/
 .footer {
     background-color: black;
