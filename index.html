@@ -59,14 +59,27 @@
                 <img src="images/icons/account_icon.png" alt="Profile Icon">
                 <a href="#">Log In / Sign Up</a>
             </div>
-            <div class="bag">
+            <div class="bag cart">
                 <img src="images/icons/shopping bag.png" alt="Profile Icon">
                 <a id="items-basket" href="#">Bag</a>
                 <br>
-            </div>
-            
+            </div> 
         </div>
+        
+        <!-- Shopping Bag Item List -->
+        <div id="cart-items">
+			<ol id="list-item">
+			</ol>
+
+			<div class="total-text">
+					<p>Total: </p>
+					<p id="total-price"></p>
+			</div>
+		</div>
+
     </nav>
+
+
 
 <!-- SHOP -->
 <section id="shop">
@@ -83,13 +96,48 @@
         
         
         <div class="releases-row">
-            <div class="release-item">
+            <div class="release-item item">
                 <img class="item-image" src="images/R-10994174-1522849053-3706.jpg" alt="">
-                <p><span>"NieR Soundtrack Box Set"</span>Various Artists </p>
+                <h4><span>"NieR Soundtrack Box Set"</span>Various Artists </h4>
 
                 <div class="item-details">
-                   
-                    <p>Price: <span>$32.66</span></p>
+                    
+                   <div class="prices">
+                        <p>Price: $</p><p class="price">15.99</p>
+                   </div>
+                    
+                    <p class="release">Release Date:<span>2012</span></p>
+                    <p>Genre: <span class="genre">Soundtrack</span></p>
+                    <p>Format: <span class="genre">Vinyl</span></p> 
+                    <div class="bttn-row">
+                        <button class="add2-bag">Shop</button><button class="add2-want">Want</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="release-item item">
+                <img class="item-image"  src="images/BEATBOX - Glass Candy.jpg" alt="">
+                <h4><span>"B/E/A/T/B/O/X"</span> Glass Candy</h4>
+
+                <div class="item-details">
+                    
+                    <p class="prices">Price: <span class="price">32.66</span></p>
+                    <p class="release">Release Date:<span>2012</span></p>
+                    <p>Genre:<span class="genre">Soundtrack</span></p>
+                    <p>Format:<span class="genre">Vinyl</span></p>
+
+                    <div class="bttn-row">
+                        <button class="add2-bag">Shop</button><button class="add2-want">Want</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="release-item item">
+                <img class="item-image"  src="images/stooges-fun house.jpg" alt="">
+                <h4><span>"Fun House"</span>The Stooges</h4>
+
+                <div class="item-details">
+                    <p class="prices">Price: <span class="price">32.66</span></p>
                     <p class="release">Release Date:<span>2012</span></p>
                     <p>Genre:<span class="genre">Soundtrack</span></p>
                     <p>Format:<span class="genre">Vinyl</span></p>
@@ -99,42 +147,17 @@
                 </div>
 
             </div>
-            <div class="release-item">
-                <img class="item-image"  src="images/BEATBOX - Glass Candy.jpg" alt="">
-                <p><span>"B/E/A/T/B/O/X"</span> Glass Candy</p>
-
-                <div class="item-details">
-                    <p>Format:</p>
-                    <p class="release">Release Date:</p>
-                    <p class="genre">Genre:</p>
-                    <div class="bttn-row">
-                        <button class="add2-bag">Shop</button><button class="add2-want">Want</button>
-                    </div>
-                </div>
-
-            </div>
-            <div class="release-item">
-                <img class="item-image"  src="images/stooges-fun house.jpg" alt="">
-                <p><span>"Fun House"</span>The Stooges</p>
-
-                <div class="item-details">
-                    <p>Format:</p>
-                    <p class="release">Release Date:</p>
-                    <p class="genre">Genre:</p>
-                    <div class="bttn-row">
-                        <button class="add2-bag">Shop</button><button class="add2-want">Want</button>
-                    </div>
-                </div>
-
-            </div>
-            <div class="release-item">
+            <div class="release-item item">
                 <img class="item-image"  src="images/Cortex - Troupeau Bleau.jpg" alt="">
-                <p><span>"Troupeau Bleu"</span>Cortex</p>
+                <h4><span>"Troupeau Bleu"</span>Cortex</h4>
 
                 <div class="item-details">
-                    <p>Format:</p>
-                    <p class="release">Release Date:</p>
-                    <p class="genre">Genre:</p>
+                    <p class="prices">Price: <span class="price">$32.66</span></p>
+                    <p class="release">Release Date:<span>2012</span></p>
+                    <p>Genre:<span class="genre">Soundtrack</span></p>
+                    <p>Format:<span class="genre">Vinyl</span></p>
+
+
                     <div class="bttn-row">
                         <button class="add2-bag">Shop</button><button class="add2-want">Want</button>
                     </div>
@@ -201,13 +224,29 @@
 
             <div class="vl"></div>
 
-            <div class="jiFooter">
-                <h4>JOIN IN</h4>
-                <p>Sign up</p>
-                <p>Start selling</p>
-                <p>Forum</p>
-                <p>Careers</p>
+            <div class="j
+            
+            iFooter">
+                <h4>JOIN 
+                    
+                    IN</h4>
+                <p>Sign u
+                    
+                    p</p>
+                <p>Start 
+                    
+                    selling</p>
+                <p>Forum<
+                    
+                    /p>
+                <p>Career
+                    
+                    s</p>
             </div>
+
+
+
+
 
             <div class="vl"></div>
 
@@ -258,8 +297,8 @@
 
     
     
- 
-   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="app/app.js"></script>  
     
 </body>
 </html>

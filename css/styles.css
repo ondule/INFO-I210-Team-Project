@@ -380,7 +380,7 @@ nav {
 }
 
 
-/*  */
+/* OVERLAY ITEM DETAILS */
 .item-details {
     cursor: pointer;
     background-color: #000000;
@@ -411,14 +411,22 @@ nav {
 }
 
 
-.item-details p {
+.prices {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: .01rem;
+    text-align: center;
+}
+.item-details p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 .item-details span {
-    margin-left: 12px;
+    margin-left: 5px;
+    
 }
 
 
@@ -481,6 +489,14 @@ button:focus {
     font-size: 14px;
     font-family: "Helvetica-Ext-Med";
 }
+
+.release-item h4 {
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: "Helvetica-Ext-Med";
+    font-weight: normal;
+}
+
 .release-item span {
     font-style: italic;
     display: block;
