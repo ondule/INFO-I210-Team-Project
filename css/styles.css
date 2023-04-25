@@ -16,6 +16,7 @@ img {
 	max-width: 100%;
 }
 
+
 /* FONTS */
 @font-face {
     font-family: "Bungee";
@@ -35,516 +36,85 @@ img {
     font-weight: normal;
     font-style: italic;
   } 
-
-/* NAV */
-nav {
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: center;
-    /* background-color: pink; */
-    
-}
-/* Left Navigation */
-.navLinks {
-    margin-right: 100px;
-    margin-bottom: 60px;
-    width: 286px;
-    /* background-color: chartreuse;  */
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-}
-
-.navLinks img {
-    width: 10px;
-    margin-left: 3px;
-}
-
-.navLinks a {
-    font-size: 16px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
-/* Blog Drop Down Link */
-.blog-DD:hover .blog-DD-content {
-    display: flex;
-}
-
-.blog-DD a:hover {
-    color: #FF3062;
-}
-.blog-DD-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(0, 0, 0); */
-    height: 80px;
-    width: 120px; 
-    /* justify-content: space-evenly; */
-    flex-direction: column;
-    padding-top: 10px;
-    border-radius: 5px 5px 12px 12px;
-}
-.blog-DD:hover .blog-DD-content {
-    display: flex;
-}
-
-.blog-DD-content a {
-    font-size: 14px;
-    color: #fff;
-}
-
-.blog-DD:hover .blog-DD-content {
-    display: flex;
-}
-
-/* Shop Drop Down Link */
-.shop-DD a:hover {
-    color: #FF3062;
-}
-.shop-DD-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(0, 0, 0); */
-    height: 80px;
-    width: 120px; 
-    /* justify-content: space-evenly; */
-    flex-direction: column;
-    padding-top: 10px;
-    border-radius: 5px 5px 12px 12px;
-}
-.shop-DD:hover .shop-DD-content {
-    display: flex;
-}
-
-.shop-DD-content a {
-    font-size: 14px;
-    color: #fff;
-}
-
-.DD-item {
-    margin-left: 5px;
-}
-
-.DD-item:hover a {
-    color: #FF3062;
-}
-
-.teamDD:hover .teamDD-content {
-    display: flex;
-}
-
-.teamDD a:hover {
-    color: #FF3062;
-}
+ 
 
 
-.teamDD-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(0, 0, 0); */
-    height: 80px;
-    width: 120px; 
-    /* justify-content: space-evenly; */
-    flex-direction: column;
-    padding-top: 10px;
-    border-radius: 5px 5px 12px 12px;
-    
-}
-
-.teamDD-content a {
-    font-size: 14px;
-    color: #fff;
-}
-
-.teamMember {
-    margin-left: 5px;
-}
 
 
-.teamMember:hover {
-    background-color: rgb(212, 212, 212);
-    height: 20px;
-    width: 100%;
-    margin-left: 0;
-}
-.teamMember:hover a {
-    color: #FF3062;
-}
-
-.infoDD:hover {
-    color: #FF3062;
-}
-
-.infoDD:hover .infoDD-content {
-    display: flex;
-}
-
-.infoDD-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(0, 0, 0);  */
-    height: 80px;
-    min-width: 80px; 
-    flex-direction: column;
-    padding-top: 10px;
-    border-radius: 5px 5px 12px 12px;
-} 
-
-.infoDD-content a {
-    font-size: 14px;
-    color: #fff;
-}
-
-.infoDD-link {
-    margin-left: 5px;
-}
-
-.infoDD-link:hover a {
-    color: #FF3062;
-}
-
-/* Logo/search box */
-.logoContainer {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    /* background-color: purple; */
-    
-}
 
 
-.logoContainer p {
-    font-size: 14px;
-    font-family: "Helvetica-Ext-Light";
-    color: #000000;
-    margin-right: 44px;
-    margin-top: 16px;
-    
-}
-
-.search {
-    width: 332px;
-    height: 46px;
-    margin-top: 24px;
-    background-color: #efefef;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    /* justify-items: center;  */
-    justify-content: space-between;
-    
-}
-
-.search img {
-    width: 19.5px;
-    height: 19.5px;
-    margin-left: 25px;
-}
-
-/* right side NAV links */
-.rightLinks {
-    margin-bottom: 54px;
-    /* background-color: brown; */
-    /* min-width: 286px; */
-    margin-left: 91px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-
-.account {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-right: 36px;
-
-}
-
-.bag {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-
-.rightLinks a {
-    font-size: 14px;
-    font-family: Helvetica, Arial, sans-serif;
-    color: black;
-    text-decoration: none;
-}
-
-.account img {
-    max-width: 27px;
-    margin-right: 12px; 
-}
-
-.bag img {
-    max-width: 21px;
-    margin-right: 12px;
-}
 
 
-/* HERO IMG */
-
-#shop {
-    /* background-color: yellow; */
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.sectHeading {
-    margin-top: 50px;
-    width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: tomato; */
-    margin-left: 292px;
-    margin-bottom: 34px;
-}
-.sectHeading h2 {
-    font-family: "Helvetica-Ext-Med";
-    font-size: 26px;
-}
-.sectHeading p {
-    font-family: "Helvetica-Ext-Med";
-    font-size: 12px;
-    text-decoration: none;
-    padding-top: 10px;
-}
-.heroCont {
-    
-    width: 100%;
-    height: 350px;
-    /* background-color: chocolate; */
-    display: flex;
-    justify-content: center;
-    
-} 
-.hero {
-    width: 1300px;
-    height: 340px;
-    /* background-color: chartreuse; */
-    background-image: url(../images/banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-
-.hero h2 {
-    color: white;
-    font-family: "High Tower";
-    font-size: 54px;
-    font-style: italic;
-}
-
-/* New Releases Albums */
-.releases {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 44px;
-    
-}
-
-.releases-row {
-    height: 364px;
-    min-width: 1300px;
-    /* background-color: chartreuse; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.release-item {
-    max-width: 295px;
-    max-height: 295px;
-    text-align: center;
-    position: relative;
-    /* background-color: aqua;  */
-}
 
 
-/* OVERLAY ITEM DETAILS */
-.item-details {
-    cursor: pointer;
-    background-color: #000000;
-    color: #ffffff;
+
+
+/* TEAM SECTION /////////////////////////////////////////////////////*/
+#team{
+    margin-top: 20%;
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 1s;
-    opacity: 0;
-
-}
-
-
-.release-item:hover .item-details {
-    transition: 1s;
-    opacity: .88;
     
+
 }
 
-.overlay {
-    z-index: 2; 
+.team {
+    width: 100%;
+    height: 100%;
 }
 
-
-.prices {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: .01rem;
-    text-align: center;
-}
-.item-details p {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-.item-details span {
-    margin-left: 5px;
-    
-}
-
-
-.bttn-row {
-    margin-top: 20px;
-    width: 275px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.bttn-row button {
-    
-    width: 8rem;
-    display: inline-block;
-    border: none;
-    padding: .7rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    background: #7a7a79;
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    transition: background 50ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-.bttn-row button:hover,
-.bttn-row button:focus {
-    background: #FF3062;
-    opacity: 1;
-}
-button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-
-
-
-
-
-
-.release-item img {
-    height: 295px;
-    width: 295px;
-}
-.release-item p {
-    margin-top: 8px;
-    font-size: 14px;
-    font-family: "Helvetica-Ext-Med";
-}
-
-.release-item h4 {
-    margin-top: 8px;
-    font-size: 14px;
-    font-family: "Helvetica-Ext-Med";
-    font-weight: normal;
-}
-
-.release-item span {
-    font-style: italic;
-    display: block;
-    /* text-transform: uppercase; */
-}
-
-/* TEAM SEC STYLING */
 .ourTeam img{
-    padding-top: 50px;
-    margin-left: 290px;
+    width: 395px;
+    position: relative;
+    left: 10%;
+    display: none;
 }
 
 .ourTeam h1{
-    margin-left: 390px;
-    margin-top: -100px;
-    font-size: 55px;
+    position: relative;
+    left: 13.5%;
+    top: -75px;
+    font-size: 268%;
     color: red;
     font-family: "teamFont";
 
 }
 
 .teamBody {
-    margin-left: 310px;
-    margin-top: 150px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .teamBody img{
-    margin-right: 100px;
+    width: 22%;
+    padding: 1%;
+    
 }
 
 .teamBodyText {
     display: flex;
     flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: khaki; */
 }
 
 .text1 {
     align-items: right;
     font-size: 12px;
     font-family: "teamFont";
-    max-width: 400px;
-    margin-left: 260px;
+    width: 30%;
+
     margin-top: 20px;
     justify-content: right;
     text-align: right;
+    /* background-color: aqua; */
 }
 
 .text1 h2{
-    font-size: 40px;
+    font-size: 280%;
 }
 
 .text1 h3{
@@ -613,7 +183,11 @@ button:focus {
   }
 
 
-/*footer styles*/
+/*FOOTER///////////////////////////////////////////////////////////////*/
+#footer {
+    margin-top: 100px;
+    width: ;
+}
 .footer {
     background-color: black;
     width: 100%;
@@ -622,15 +196,19 @@ button:focus {
     margin-bottom: 0px;
 }
 
+.footer-logo {
+    width: 60%;
+    padding-left: 2%;
+}
 .titleImg {
     padding-top: 50px;
-    margin-left: 30px;
+    padding-left: 5px;
 }
 .titleArrow {
-    margin-top: -10px;
     display:inline;
     position: relative;
-    left: 45%;
+    left: 25%;
+    top: -40px;
 }
 
 @font-face {
@@ -640,7 +218,7 @@ button:focus {
 
 .footerBody {
     color: white;
-    font-size: 20px;
+    font-size: 90%;
     text-align: left;
     display: flex;
     margin-top: 50px;
@@ -658,7 +236,7 @@ button:focus {
 }
 
 .auFooter {
-   margin-left: 280px;
+    padding-left: 280px; 
 }
 
 @font-face {
@@ -723,10 +301,10 @@ button:focus {
 }
 
 .english {
-    display: flex;
-    margin-left: 37%;
+    display: flex; 
     align-items: row;
     padding-bottom: 20px;
+    margin-left: 15%;
 }
 
 .english img {

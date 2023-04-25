@@ -9,18 +9,18 @@ $(function(){
 
  
   
-  $(".item").on("click", function () {
+  $(".add2-bag").on("click", function () {
     $("#cart-items").slideDown();
    setTimeout(function(){
       $("#cart-items").slideUp();
    }, 3000)
     
     //add items to basket
-    $(this).each(function () {
+    $(this).parents(".item").each(function () {
       var name = $(this).children("h4").text();
-      var remove = "<button class='remove'> X </button>";
+      var remove = "<button class='remove'> &times; </button>";
       var cena = "<span class='eachPrice'>" + (parseFloat($(this).children(".item-details").children(".prices").children(".price").text())) + "</span>";
-      $("#list-item").append("<li>" + name + "&#09; - &#09;" + "$" + cena  + remove + "</li>");
+      $("#list-item").append("<li>" + name + "&#09; - &#09;" + "$" + cena  + "     " + remove + "</li>");
 
       //number of items in basket
       $("#items-basket").text("(" + ($("#list-item").children().length) + ")");
